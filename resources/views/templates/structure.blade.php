@@ -12,6 +12,10 @@
         @include('templates.header')
     </header>
 
+    <div class="blu-ribbon">
+        @include('templates.bluRibbon')
+    </div>
+
     <div class="container">
         @yield('content')
     </div>
@@ -19,6 +23,10 @@
     <footer>
         @include('templates.footer')
     </footer>
+
+    <div class="bottom-bar">
+        @include('templates.bottomBar')
+    </div>
     
 </body>
 </html>

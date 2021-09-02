@@ -1,0 +1,26 @@
+.blu-ribbon{
+    .container-fluid {
+        background-color: dodgerblue;
+        .container {
+          padding: 50px;
+          ul {
+            display: flex;
+            li {
+              display: flex;
+              align-items: center;
+              text-transform: uppercase;
+              color: white;
+              font-size: 13px;
+              margin-right: 50px;
+              &:last-child img {
+                max-height: 30px;
+              }
+              img {
+                max-height: 50px;
+                margin-right: 10px;
+              }
+            }
+          }
+        }
+    }
+}
