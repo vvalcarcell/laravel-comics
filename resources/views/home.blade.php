@@ -3,5 +3,9 @@
 @section ('title', 'HomePage')
 
 @section('content')
-    ciao
+    <div class="container-fluid">
+        <div class="container">
+
+        </div>
+    </div>
 @endsection

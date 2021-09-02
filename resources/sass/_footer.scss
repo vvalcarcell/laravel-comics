@@ -1,0 +1,33 @@
+.container-fluid {
+    background-image: url("../assets/footer-bg.jpg");
+    color: white;
+    .container {
+      max-height: 300px;
+      display: flex;
+      justify-content: space-between;
+      overflow: hidden;
+      img {
+        margin-top: -80px;
+        height: 450px;
+      }
+      .links-space {
+        display: flex;
+            .column {
+                padding-top: 30px;
+                margin-right: 30px;
+                font-size: 12px;
+                li {
+                    margin: 5px 0;
+                    &:first-child {
+                    font-size: 16px;
+                    font-weight: bold;
+                    margin: 10px 0;
+                    }
+                    &:hover {
+                    text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
