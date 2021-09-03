@@ -20,6 +20,15 @@ Route::get('/', function () {
     ]);
 })-> name('home');
 
-// Route::get('/about-us', function () {
-//     return view('about');
-// })-> name('about');
+
+Route::get('/comic/{id}', function ($id) {
+
+    $arrayIndex = $id - 1;
+
+    $comics = config('comics');
+
+    return view('singleComic', [
+        "arrayIndex" => $arrayIndex,
+        'comics' => $comics
+    ]);
+})->name('singleComic');
