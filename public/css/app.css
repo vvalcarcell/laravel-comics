@@ -129,9 +129,17 @@ footer .container-fluid .container .links-space .column li:hover {
   max-height: 30px;
 }
 
+.blu-ribbon .container-fluid .container ul li:last-child {
+  margin-right: 0;
+}
+
 .blu-ribbon .container-fluid .container ul li img {
   max-height: 50px;
   margin-right: 10px;
+}
+
+.homePage {
+  background-color: #1f1f1f;
 }
 
 * {

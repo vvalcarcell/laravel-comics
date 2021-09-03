@@ -12,11 +12,7 @@
         @include('templates.header')
     </header>
 
-    <div class="blu-ribbon">
-        @include('templates.bluRibbon')
-    </div>
-
-    <div class="container">
+    <div>
         @yield('content')
     </div>
 
