@@ -4,7 +4,9 @@
 
 
 @section('content')
+  {{$comic['title']}}
+  <img src="/img/adv.jpg" alt="">
 
-    ciao
+
 
 @endsection

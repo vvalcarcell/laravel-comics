@@ -28,7 +28,6 @@ Route::get('/comic/{id}', function ($id) {
     $comics = config('comics');
 
     return view('singleComic', [
-        "arrayIndex" => $arrayIndex,
-        'comics' => $comics
+        "comic"=> $comics[$arrayIndex]
     ]);
 })->name('singleComic');

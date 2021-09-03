@@ -14,7 +14,7 @@
                     
                         <div class="single-card-content">
                             <img src="{{ $singleCard['thumb'] }}" />
-                            <h3>{{ $singleCard["title"] }}</h3>
+                            <h3>{{ $singleCard["series"] }}</h3>
                         </div>
 
                     </div> 
