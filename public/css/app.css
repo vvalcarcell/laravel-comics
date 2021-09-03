@@ -15,7 +15,7 @@ header .container ul {
 header .container ul li {
   height: 55px;
   margin: 20px 20px 0;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -145,6 +145,54 @@ footer .container-fluid .container .links-space .column li:hover {
 .homePage {
   background-color: #1f1f1f;
   color: white;
+}
+
+.homePage .jumbo {
+  height: 300px;
+  background-image: url("/img/jumbotron.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+.homePage .jumbo h1 {
+  background-color: #0061ff;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+  bottom: -20px;
+  left: 140px;
+}
+
+.homePage .container {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homePage .container .single-card {
+  width: calc(100% / 6);
+  margin-top: 20px;
+  text-align: center;
+}
+
+.homePage .container .single-card .single-card-content {
+  padding-right: 15px;
+}
+
+.homePage .container .single-card .single-card-content img {
+  max-width: 100%;
+}
+
+.homePage .container .single-card .single-card-content h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.homePage .container .load {
+  padding: 10px 30px;
+  background-color: #0061ff;
+  margin: 50px auto;
 }
 
 * {
