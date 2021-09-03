@@ -212,7 +212,6 @@ footer .container-fluid .container .links-space .column li:hover {
 }
 
 .single-Comic .container-comic {
-  display: flex;
   width: 1200px;
   margin: 70px auto;
 }
@@ -256,7 +255,6 @@ footer .container-fluid .container .links-space .column li:hover {
 }
 
 .single-Comic .container-comic .right-item .adv {
-  text-transform: uppercase;
   font-weight: bold;
   color: grey;
   justify-content: flex-end;

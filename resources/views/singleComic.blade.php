@@ -12,7 +12,7 @@
             </div>
         </section>
 
-        <section class="container-comic">
+        <section class="container-comic flex">
 
             <div class="left-item">
                 <h1>{{$comic['title']}}</h1>
@@ -32,7 +32,7 @@
             </div>
 
             <div class="right-item">
-                <div class="adv flex">advertisement</div>
+                <div class="adv flex uppercase">advertisement</div>
                 <div class="adv-box flex">
                     <img src="/img/adv.jpg" alt="">
                 </div>

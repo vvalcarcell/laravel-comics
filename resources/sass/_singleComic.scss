@@ -16,7 +16,6 @@
             }
     }
     .container-comic{
-        display: flex;
         width: 1200px;
         margin: 70px auto;
         .left-item{
@@ -50,7 +49,6 @@
         .right-item{
             width: 30%;
             .adv{
-                text-transform: uppercase;
                 font-weight: bold;
                 color: grey;
                 justify-content: flex-end;
