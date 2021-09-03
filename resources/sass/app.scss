@@ -5,6 +5,7 @@
 @import "bottomBar";
 @import "bluRibbon";
 @import "home";
+@import "singleComic";
 
 
 *{
@@ -30,5 +31,11 @@ a {
 
 img {
 cursor: pointer;
+max-width: 100%;
+}
+
+.bold{
+    font-weight: bold;
+    margin-left: 5px;
 }
 
